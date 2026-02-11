@@ -2,28 +2,32 @@
 ![English](docs/ReadME_eng.md)
 <h1 align="center"> PC Parts Tracker </h1>
 
-> A convenient tool for selecting components and viewing price dynamics
+> Удобный инструмент для подбора комплектующих и просмотра динамики цен
 
 ![](https://img.shields.io/badge/Author-AtLaS-blue)
 ![](https://img.shields.io/badge/PetProject-aquamarine)
 ![](https://img.shields.io/badge/Status-In_work-cyan)
 ---
-# Main Description
-The project, in case I see it, is one platform for pc parts search for 
-any usage you want. For the first time, project regionality is Russia, 
-in the future I want to add a couple of regions.
-I suppose to make auto-filling database from auto-parsers 
-for such web-sites as: 
-- DNS-shop
-- GeekBench
+# Основное описание
+Проект, как я его представляю, должен стать веб-сайтом 
+с динамикой цен, 
+характеристиками большинства компонентов для пк, 
+перечнем системных требований для различных задач 
+и сервером, хранящим и автоматически обновляющим необходимые данные.\
+Иными словами, платформа для подбора комплектующих и отслеживания наиболее выгодных предложений.\
+Для начала, географически проект будет распространен на Россию и ее местные магазины. В дальнейшем, вероятно, география будет расширена на еще несколько стран.
 
+Я предполагаю разработать автозаполняемую базу данных при помощи автопарсеров с таких ресурсов как:
+- dns-shop
+- mvideo
+- geekbench
+- passmark (при возможности)
+- и др.
 
 ## Стек
 ![](https://img.shields.io/badge/Python_3.10-darkred)
-![](https://img.shields.io/badge/sckit-moccasin)
 ![](https://img.shields.io/badge/pandas-moccasin)
-![](https://img.shields.io/badge/flask-moccasin)
-![](https://img.shields.io/badge/pytelebot-moccasin) \
+![](https://img.shields.io/badge/flask-moccasin)\
 ![](https://img.shields.io/badge/React-firebrick)
 ![](https://img.shields.io/badge/Vite-khaki)
 ![](https://img.shields.io/badge/JavaScript-khaki)
