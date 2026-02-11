@@ -1,6 +1,6 @@
 ![Russian](ReadME.md)\
 ![English](docs/ReadME_eng.md)
-<center><h1>PC Parts Tracker</h1></center>
+<h1 align="center"> PC Parts Tracker </h1>
 
 > A convenient tool for selecting components and viewing price dynamics
 
