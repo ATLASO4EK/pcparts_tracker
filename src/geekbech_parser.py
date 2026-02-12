@@ -13,17 +13,17 @@ class GeekBenchParser:
 
     def get_cpus(self):
         rating = 'processor'
-        GEEKBENCH_URL = f"{self.GEEKBENCH_URL}/{rating.lower()}-benchmarks.json"
+        GEEKBENCH_CPU_URL = f"{self.GEEKBENCH_URL}/{rating.lower()}-benchmarks.json"
         with CachedSession(
                 self.CACHE_PATH.as_posix(), backend="sqlite", expire_after=86400
         ) as session:
-            resp = session.get(GEEKBENCH_URL)
+            resp = session.get(GEEKBENCH_CPU_URL)
             self.LOG.info(
                 f"Last retrieved: {resp.created_at}, Cache expires: {resp.expires}, "
                 f"Cache path: {self.CACHE_PATH}"
             )
 
-            json_data = session.get(GEEKBENCH_URL).json()
+            json_data = session.get(GEEKBENCH_CPU_URL).json()
             try:
                 df = DataFrame(json_data["devices"])
             except Exception as e:
